@@ -29,8 +29,7 @@ class Login extends Component{
      }
     getTrueCollege(value){
         this.setState({
-            college:value,
-            tty
+            college:value
         })
     }
     render(){
